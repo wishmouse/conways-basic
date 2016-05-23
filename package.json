@@ -1,0 +1,32 @@
+{
+  "name": "conways-tony",
+  "version": "0.0.1",
+  "description": "conways game of life",
+  "main": "index.html",
+  "scripts": {
+    "app": "budo app/index.js:bundle.js --live --dir app",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hihi-2016/conways.git"
+  },
+  "keywords": [
+    "conways"
+  ],
+  "author": "tony-luisi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hihi-2016/conways/issues"
+  },
+  "homepage": "https://github.com/hihi-2016/conways#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "budo": "^8.1.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "domready": "^1.0.8"
+  }
+}
