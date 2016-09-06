@@ -5,7 +5,7 @@ domready(function () {
   var lib = require('./lib')
   var boardStarted = false
   var intervalID
-  var board = lib.createBoard(50, 100)
+  var board = lib.createBoard(50, 50)
   var root = "#root"
   var header = "#header"
   var heading = "Conway's Game of Life"
